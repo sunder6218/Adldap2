@@ -955,7 +955,7 @@ class User extends Entry implements Authenticatable
      *
      * @return bool
      */
-    public function isExpired(DateTime $date = null)
+    public function isExpired(?DateTime $date = null)
     {
         // Here we'll determine if the account expires by checking is expiration date.
         if ($expirationDate = $this->expirationDate()) {

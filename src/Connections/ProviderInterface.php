@@ -54,7 +54,7 @@ interface ProviderInterface
      *
      * @return $this
      */
-    public function setConnection(ConnectionInterface $connection = null);
+    public function setConnection(?ConnectionInterface $connection = null);
 
     /**
      * Sets the current configuration.
@@ -72,7 +72,7 @@ interface ProviderInterface
      *
      * @return $this
      */
-    public function setSchema(SchemaInterface $schema = null);
+    public function setSchema(?SchemaInterface $schema = null);
 
     /**
      * Returns the current LDAP attribute schema.

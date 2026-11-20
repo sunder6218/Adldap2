@@ -154,7 +154,7 @@ class Builder
      * @param Grammar|null         $grammar
      * @param SchemaInterface|null $schema
      */
-    public function __construct(ConnectionInterface $connection, Grammar $grammar = null, SchemaInterface $schema = null)
+    public function __construct(ConnectionInterface $connection, ?Grammar $grammar = null, ?SchemaInterface $schema = null)
     {
         $this->setConnection($connection)
             ->setGrammar($grammar)
@@ -182,7 +182,7 @@ class Builder
      *
      * @return Builder
      */
-    public function setGrammar(Grammar $grammar = null)
+    public function setGrammar(?Grammar $grammar = null)
     {
         $this->grammar = $grammar ?: new Grammar();
 
@@ -196,7 +196,7 @@ class Builder
      *
      * @return Builder
      */
-    public function setSchema(SchemaInterface $schema = null)
+    public function setSchema(?SchemaInterface $schema = null)
     {
         $this->schema = $schema ?: new ActiveDirectory();
 
@@ -218,7 +218,7 @@ class Builder
      *
      * @param Cache|null $cache
      */
-    public function setCache(Cache $cache = null)
+    public function setCache(?Cache $cache = null)
     {
         $this->cache = $cache;
 
@@ -249,7 +249,7 @@ class Builder
      *
      * @return $this
      */
-    public function newNestedInstance(Closure $closure = null)
+    public function newNestedInstance(?Closure $closure = null)
     {
         $query = $this->newInstance()->nested();
 
@@ -1686,7 +1686,7 @@ class Builder
      *
      * @return $this
      */
-    public function cache(\DateTimeInterface $until = null, $flush = false)
+    public function cache(?\DateTimeInterface $until = null, $flush = false)
     {
         $this->caching = true;
         $this->cacheUntil = $until;

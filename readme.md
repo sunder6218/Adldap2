@@ -1,20 +1,3 @@
-<h3 align="center">
-<strong>:warning: Project No Longer Maintained :warning:</strong>
-</h3>
-
-<p align="center">
-Consider migrating to its direct replacement
-<a href="https://github.com/DirectoryTree/LdapRecord" target="_blank" title="LdapRecord GitHub Repository">LdapRecord</a>.
-</p>
-
-<p align="center">
-<strong>
-<a href="https://stevebauman.ca/why-ldap-record/">Read Why</a>
-</strong>
-</p>
-
-<hr/>
-
 <h1 align="center">Adldap2</h1>
 
 <p align="center">

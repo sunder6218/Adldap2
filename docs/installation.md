@@ -2,7 +2,7 @@
 
 Adldap2 requires the following:
 
-- PHP 7.0 or greater
+- PHP 8.1 or greater (tested up to PHP 8.5)
 - LDAP extension enabled in PHP
 - An LDAP server (ActiveDirectory, OpenLDAP, FreeIPA etc.)
 

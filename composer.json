@@ -1,5 +1,5 @@
 {
-    "name": "adldap2/adldap2",
+    "name": "sunder6218/adldap2",
     "type": "library",
     "description": "A PHP LDAP Package for humans.",
     "keywords": [
@@ -20,8 +20,8 @@
     },
     "authors": [
         {
-            "name": "Steve Bauman",
-            "email": "steven_bauman@outlook.com",
+            "name": "Sunder",
+            "email": "sunder@sinch.com",
             "role": "Developer"
         }
     ],

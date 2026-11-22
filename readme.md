@@ -43,6 +43,18 @@ Consider migrating to its direct replacement
 
 ---
 
+<h3 align="center">Requirements</h3>
+
+| Requirement | Supported versions                |
+| ----------- | --------------------------------- |
+| PHP         | 8.1, 8.2, 8.3, 8.4, 8.5           |
+| Laravel     | 10, 11, 12, 13 (`illuminate/contracts`) |
+| Extensions  | `ext-ldap`, `ext-json`            |
+
+PHP 7.x and 8.0 are no longer supported.
+
+---
+
 <h3 align="center">Security Vulnerabilities</h3>
 
 <p align="center">If you discover a security vulnerability within Adldap2, please send an e-mail to Steve Bauman via <a href="mailto:steven_bauman@outlook.com">steven_bauman@outlook.com</a>.</p>

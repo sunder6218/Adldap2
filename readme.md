@@ -40,6 +40,6 @@ PHP 7.x and 8.0 are no longer supported.
 
 <h3 align="center">Security Vulnerabilities</h3>
 
-<p align="center">If you discover a security vulnerability within Adldap2, please send an e-mail to Steve Bauman via <a href="mailto:steven_bauman@outlook.com">steven_bauman@outlook.com</a>.</p>
+<p align="center">If you discover a security vulnerability within Adldap2, please send an e-mail to Steve Bauman via <a href="mailto:sunder@sinch.com">steven_bauman@outlook.com</a>.</p>
 
 <p align="center">All security vulnerabilities will be promptly addressed.</p>
